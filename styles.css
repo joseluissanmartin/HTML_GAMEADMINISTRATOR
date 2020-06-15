@@ -32,6 +32,8 @@ section{
 }
 .tarjeta{
     background-color:black;
+    position:relative;
+    top:0px;
     width: 1300px;
     height: 100px;
     text-align: center;
@@ -71,8 +73,11 @@ input, select, text {
 }
 .email{
   position: relative;
-  left: -150px;
-  top:-10px;
+  top:-60px;
+}
+.password{
+  position: relative;
+  top:-45px;
 }
 .nombreRegistro{
   position: relative;
@@ -146,12 +151,12 @@ input, select, text {
 
 .u{
   position: relative;
-  top: -10px;
+  top: -40px;
 
 }
 .a{
   position: relative;
-  top: -91px;
+  top: -122px;
   left:120px;
 }
 h1{
@@ -169,17 +174,17 @@ h4{
 h5{
   position: relative;
   top: -35px;
-  left:-110px;
+  left:-100px;
 }
 .Iniciar{
   position: relative;
-  top:-140px;
+  top:-175px;
   left:55px;
   font-size: 100%;
 }
 .Registrarse{
   position: relative;
-  top:-100px;
+  top:-130px;
   left:-50px;
   font-size: 100%;
 }
@@ -196,9 +201,9 @@ h5{
   font-size: 100%;
 }
 .imagen0{
-float:left;
-margin-left: 10px;
-margin-top: 10px;
+position: relative;
+top: -50px;
+left: -300px;
 width: 200px;
 height: 200px;
 }
@@ -224,8 +229,8 @@ height: 200px;
   position: relative;
   width: 600px;
   height: 200px;
-  top:-1080px;
-  left:350px;
+  top:-40px;
+  left:-100px;
 }
 a{
   color:white;
